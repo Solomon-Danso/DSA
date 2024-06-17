@@ -36,11 +36,13 @@ An algorithm is a step by step procedure to solve a problem
 [-] To peek we use the peek method which will return the first item in the list 
 [-] The Queue class extends the collection class so it inherits everything from the collection class 
 
-<=>Uses of Stack<=>
+<=>Uses of Queue<=>
 [*] Keyboard backtracking 
 [*] Printer Queues [Print jobs should be completed in an order]
 
 
+# Priority Queue
+[-]It is a FIFO data structure, element of the highest priority are served first 
 
 
 
