@@ -81,6 +81,28 @@ ArrayList is great for searching elements because they use index
 5. O(n^2) = Quadratic time => insertion sort, selection sort, bubblesort 
 6. O(n!) = Factorial time => Extremely Slow 
 
+# Binary search
+[-] Example explanation 
+Target Element: H
+
+Element = [A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S]
+1. Start from the middle element, J. 
+2. Check if H is equal to the middle element (J),
+3. If not, check if H is in the first half[A,B,C,D,E,F,G,H,I,] or the second half[,K,L,M,N,O,P,Q,R,S]
+4. Since H is in the first half, we will drop the second half with the J
+5. Element = [A,B,C,D,E,F,G,H,I] 
+Repeating the procedure 
+First half = [A,B,C,D] 
+Middle =  E
+Second half = [F,G,H,I]
+
+Drop the first half since H is not in 
+Element = [F,G,H,I]
+Continue till you get the H 
+
+[*] Binary search is efficient with larger datasets like (1 million element) 
+[*] The run time complexity is O( log n)
+
 
 
 
