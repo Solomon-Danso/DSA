@@ -44,13 +44,27 @@ An algorithm is a step by step procedure to solve a problem
 # Priority Queue
 [-]It is a FIFO data structure, element of the highest priority are served first 
 
+# Linked List 
+[-] For traditional arrays to insert an element in an index, you need to shift the element to the last end, create an empty space and insert the element 
+[-] To delete an element, you need to shift the element until there is an empty space at the tail end 
+[-] For about 1 million list, this is will create a lot of problem, that is why linked list come to the rescue 
 
+<=> Advantages <=>
+1. Dynamic Data structure (allocates needed memory while running)
+2. Insertion and Deletion of Nodes is easy 
+3. No/Low memory waste 
 
+<=> DisAdvantages <=>
+1. Greater memory usage (additional pointer)
+2. No random access of elements (no index[i])
+3. Acessing/Searching is more time consuming
 
+<=> Uses <=>
+1. Implements Stack and Queue
+2. GPS navigation 
+3. music playlist
 
-
-
-
+ArrayList is great for searching elements because they use index 
 
 
 
