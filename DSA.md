@@ -23,3 +23,40 @@ An algorithm is a step by step procedure to solve a problem
 [*]Calling a function
 
 
+# Queue
+
+[-]It follows the FIFO procedure, First In First Out, First come first serve
+[-]The concept of adding an element and removing an element from a queue is known as enqueue and dequeue
+[-]Enqueue means to add an element to the queue from the tail
+[-]Dequeue means to remove an element from the queue from the head
+[-]We cannot instantiate the Queue because Queue is a interface but not a class. We cannot instantiate an interface. More like a template
+[-]We will need a class that instantiates a Queue, we can use a LinkedList or a PriorityQueue 
+[-]To enqueue we use the offer method 
+[-] To dequeue we use the poll method
+[-] To peek we use the peek method which will return the first item in the list 
+[-] The Queue class extends the collection class so it inherits everything from the collection class 
+
+<=>Uses of Stack<=>
+[*] Keyboard backtracking 
+[*] Printer Queues [Print jobs should be completed in an order]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
