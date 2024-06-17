@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class BinarySearch {
+public class BinarySearchCode {
     
 
     public static void main(String[] args){

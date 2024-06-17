@@ -103,10 +103,11 @@ Continue till you get the H
 [*] Binary search is efficient with larger datasets like (1 million element) 
 [*] The run time complexity is O( log n)
 
+# Interpolation search
 
-
-
-
+[-] It works with element with uniform distributed data set 
+[-] It base it search on guessing, if the guess are correct, it returns the element 
+[-] It has a big O on O(log(log n))
 
 
 
