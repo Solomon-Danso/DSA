@@ -66,6 +66,21 @@ An algorithm is a step by step procedure to solve a problem
 
 ArrayList is great for searching elements because they use index 
 
+# Dynamic Array
+[-]Dynamic array is used to dynamically set the size of the array
+[-]Dynamic array waste more memory than a linkedList 
+
+# Big O Notation
+[-]It describes the performance of an algorithm as the data grows 
+[-]The number of steps it takes to complete a task
+
+1. O(1) = constant time 
+2. O(log n) = logarithmic time => binary search 
+3. O(n) = Linear time => Looping through an element in an array
+4. O(n log n) = Quasilinear time => quicksort, mergesort, heapsort 
+5. O(n^2) = Quadratic time => insertion sort, selection sort, bubblesort 
+6. O(n!) = Factorial time => Extremely Slow 
+
 
 
 
