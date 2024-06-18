@@ -109,6 +109,9 @@ Continue till you get the H
 [-] It base it search on guessing, if the guess are correct, it returns the element 
 [-] It has a big O on O(log(log n))
 
+# Bubble Sort
+[-]It has a runtime complexity of O(n^2)
+[-]It is not a very efficient sorting algorithm
 
 
 
